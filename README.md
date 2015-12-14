@@ -1,0 +1,3 @@
+To filter out porn we have collected a lot of dirty words during the years. We maintane two sets of list. One containing single words, the other two words phrases.
+
+The phrases normally yield the most correct results. For example can a document contain both “girls” and “nude” without necessarily be pornographic. But if the phrases “nude girls” is found, the chance for it to be porn increases dramatically.
