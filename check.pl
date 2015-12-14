@@ -25,7 +25,17 @@ foreach my $file (@files) {
 			next;
 		}
 
+		if ($_ =~ /  /) {
+			print "\tEntry '$_' has sequential spaces on line $line\n";
+			next;
+		}
+
 		my ($word, $value) = split(/ ([^ ]+)$/, $_);
+
+		if ((scalar split(' ', $word)) != $file->{occurrence}) {
+			print "\tEntry '$_' dos not have the correct number of words on line $line\n";
+			next;
+		}
 
 		if (!$value) {
 			print "\tCan not find number in entry '$_' on line $line\n";
