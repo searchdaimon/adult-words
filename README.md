@@ -15,3 +15,9 @@ Output adult words without weight.
 Check the syntax of Adult_words_list_basic.txt Adult_words_list_phrases.txt. You should run this after any changes to the word lists.
 
 **Example:**  ./check.pl
+
+## License
+
+This work is licensed under the CC Attribution 4.0 International
+
+You may remix, tweak, and build upon our work, even commercially, as long as you credit Searchdaimon for the original creation. Pleas see LICENSE.md and https://creativecommons.org/licenses/by/4.0/ for more info.
